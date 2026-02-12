@@ -4,11 +4,28 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Color Strip Counter</title>
-        <link rel="shortcut icon" href="">
+        <link rel="shortcut icon" href="img/favicon.png">
         <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
-
+        <header>
+            <h1>Color Strip Counter</h1>
+        </header>
+        <main id="main-container">
+            <div id="button-container">
+                <button id="btn-count" class="btn">Count</button>
+                <button id="btn-recount" class="btn">Recount</button>
+            </div>
+            <div id="form-container">
+                <form action="#" method="GET" id="form-element">
+                    <label for="input1" id="label1">How many strips?</label>
+                    <input type="text" id="input1">
+                    <label for="strips-per-store-input" id="label2">How many strips per store?</label>
+                    <input type="text" id="strips-per-store-input">
+                    <input type="submit" value="Submit" class="btn" id="btn-submit">
+                </form>
+            </div>
+        </main>
         <script src="js/scripts.js"></script>
     </body>
 </html>
